@@ -1,17 +1,16 @@
-header{
+header {
     background-color: antiquewhite;
     padding: 20px 0;
 }
 
-.caixa{
+.caixa {
     position: relative;
-    margin: 0 auto;
+    width: 940px;
+    margin: 0 0.75rem;
 }
 
 h1 {
-    display: inline-block;
     font-size: 3rem;
-    margin-left: 2rem;
 }
 
 nav {
@@ -39,20 +38,28 @@ nav a:hover {
 	text-decoration: underline;
 }
 
-.imagem{
+.imagem {
     margin: 2rem;
-    width: 35%;
+    margin-left: 10rem;
+    width: 15%;
 }
-
-.caracteristicas{
+ 
+.description {
     display: inline-block;
     vertical-align: top;
     margin: 3rem;
+    margin-left: 40rem;
 }
 
-.compra{
-    display: inline-block;
-    vertical-align: top;
-    margin: 5rem;
+.description h2 {
     font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.description h3 {
+    font-weight: bold;
+}
+
+.description p {
+    color: gray;
 }
