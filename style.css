@@ -46,13 +46,27 @@ nav li {
 
 .product {
     display: flex;
+    justify-content: space-around;
 }
 
 .imagem {
-    width: 15%;
+    width: 30%;
     margin: 1rem;
 }
  
 .description {
-    align-items: center;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.description h2 {
+    font-size: 3rem;
+}
+
+.description h3 {
+    font-size: 2.5rem;
+}
+
+.description p {
+    font-size: 2rem;
 }
