@@ -44,28 +44,15 @@ nav li {
 	text-decoration: underline;
 }
 
+.product {
+    display: flex;
+}
+
 .imagem {
-    margin: 2rem;
-    margin-left: 10rem;
     width: 15%;
+    margin: 1rem;
 }
  
 .description {
-    display: flex;
-    vertical-align: top;
-    margin: 3rem;
-    margin-left: 40rem;
-}
-
-.description h2 {
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-.description h3 {
-    font-weight: bold;
-}
-
-.description p {
-    color: gray;
+    align-items: center;
 }
