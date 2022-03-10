@@ -4,6 +4,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    width: auto;
+    height: auto;
+}
+
 header {
     padding: 20px 0;
     font-family: 'Montserrat', sans-serif;
@@ -35,8 +40,8 @@ nav li {
 }
 
 .main-nav a:hover {
-	color: #C78C19;
 	text-decoration: underline;
+    text-decoration-color: #ca3b3a;
 }
 
 .side-nav ul li a {
@@ -46,8 +51,8 @@ nav li {
 }
 
 .side-nav a:hover {
-	color: #C78C19;
 	text-decoration: underline;
+    text-decoration-color: #ca3b3a;
 }
 
 .product {
@@ -89,15 +94,38 @@ nav li {
 .price p {
     font-size: 2rem;
     font-weight: bold;
+    flex: 0 1 40%;
 }
 
 .price button {
     background-color: #ca3b3a;
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
-    border: 0.05rem black solid;
+    font-size: 2rem;
+    text-transform: uppercase;
+    border: none;
     border-radius: 0.15rem; 
     cursor: pointer;
-    margin-left: 5rem;
+    margin-left: 2rem;
+    transition: .5s;
 }
+
+.price button:hover {
+    background-color: #161616;
+}
+
+footer {
+    display: flex;
+    width: auto;
+    height: 8.2rem;
+    margin: 0 2rem;
+    background-color: #d4d396;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+footer i {
+    padding: 0 1rem 0 4rem;
+}
+
