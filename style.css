@@ -85,6 +85,7 @@ nav li {
 
 .description p {
     font-size: 1rem;
+    color: #707070;
 }
 
 .price {
@@ -95,6 +96,7 @@ nav li {
     font-size: 2rem;
     font-weight: bold;
     flex: 0 1 40%;
+    color: #000000;
 }
 
 .price button {
