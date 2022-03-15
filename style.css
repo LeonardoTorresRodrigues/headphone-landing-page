@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@500&display=swap');
 
 * {
+    padding: 0;
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 
 body {
-    width: auto;
-    height: auto;
+    width: 100vw;
+    height: 100vh;
 }
 
 header {
@@ -20,10 +22,6 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: 0 1rem;
-}
-
-h1 {
-    font-size: 3rem;
 }
 
 nav li {
@@ -60,7 +58,7 @@ nav li {
     justify-content: space-around;
 }
 
-.imagem {
+.imagem-produto {
     width: 30%;
     margin: 1rem;
 }
@@ -131,3 +129,36 @@ footer i {
     padding: 0 1rem 0 4rem;
 }
 
+@media screen and (max-width: 768px){
+    .caixa {
+        margin: 0.25rem;
+    }
+
+    .logo{
+        width: 75%;
+    }
+
+    .main-nav ul li a {
+        font-size: 1rem;
+    }
+
+    .product img {
+        width: 35%;
+        padding: 1rem;
+        margin: 0;
+    }
+
+    .product ul {
+        margin: 0;
+        padding: 2rem 0;
+    }
+
+    footer {
+        justify-content: space-around;
+        margin: 0 1rem;
+    }
+
+    footer i {
+        padding: 0;
+    }
+}
