@@ -134,7 +134,7 @@ footer i {
         margin: 0.25rem;
     }
 
-    .logo{
+    .logo {
         width: 75%;
     }
 
@@ -161,4 +161,21 @@ footer i {
     footer i {
         padding: 0;
     }
+}
+
+@media screen and (max-width: 425px) {
+    .caixa {
+        align-items: center;
+        align-content: center;
+    }
+
+    .logo {
+        width: 50%;
+    }
+
+    .main-nav ul li a {
+        display: none;
+    }
+
+    
 }
