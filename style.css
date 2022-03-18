@@ -87,7 +87,10 @@ nav li {
 }
 
 .price {
+    display: flex;
+    flex-direction: row;
     margin-top: 2rem;
+    align-items: center;
 }
 
 .price p {
@@ -108,6 +111,8 @@ nav li {
     cursor: pointer;
     margin-left: 2rem;
     transition: .5s;
+    width: 70%;
+    height: 100%;
 }
 
 .price button:hover {
@@ -125,7 +130,27 @@ footer {
     align-content: center;
 }
 
-@media screen and (width: 768px){
+footer p {
+    padding: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+    }
+
+    header {
+        padding: 0;
+    }
+
+    .logo {
+        height: 60%;
+    }
+}
+
+@media screen and (max-width: 768px){
     .caixa {
         margin: 0.25rem;
     }
@@ -188,16 +213,11 @@ footer {
     }
 
     .price {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
         height: 10%;
         margin: 2rem .15rem 0;
     }
 
     .price button {
-        width: 70%;
-        height: 100%;
         font-size: 1rem;
     } 
 
@@ -210,5 +230,30 @@ footer {
 
     }
 
-    
+    footer p {
+        padding: 0;
+    }
+
+@media screen and (max-width: 375px) {
+    .product {
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .main-nav {
+        width: 0;
+    }
+
+    .product {
+        margin: 1rem;
+    }
+
+    .description li h2 {
+        font-size: 2rem;
+    }
+
+    footer p {
+        margin-left: .7rem;
+    }
 }
