@@ -125,11 +125,7 @@ footer {
     align-content: center;
 }
 
-footer i {
-    padding: 0 1rem 0 4rem;
-}
-
-@media screen and (max-width: 768px){
+@media screen and (width: 768px){
     .caixa {
         margin: 0.25rem;
     }
@@ -175,6 +171,43 @@ footer i {
 
     .main-nav ul li a {
         display: none;
+    }
+
+    .product {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagem-produto{
+        width: 70%;
+        height: 70%;
+    }
+
+    .description li h2 {
+        font-size: 2.2rem;
+    }
+
+    .price {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 10%;
+        margin: 2rem .15rem 0;
+    }
+
+    .price button {
+        width: 70%;
+        height: 100%;
+        font-size: 1rem;
+    } 
+
+    footer {
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 1rem 0.05rem 1rem;
+        justify-content: space-between;
+        align-items: baseline;
+
     }
 
     
