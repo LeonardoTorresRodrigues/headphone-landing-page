@@ -11,3 +11,7 @@ Página de venda de headphone
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 #vitrinedev)
+
+# Próximas atualizações
+
+:construction: Versão mobile :construction:
