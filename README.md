@@ -14,4 +14,6 @@ Página de venda de headphone
 
 # Próximas atualizações
 
+:construction: Nova Versão :construction:
+
 :construction: Versão mobile :construction:
